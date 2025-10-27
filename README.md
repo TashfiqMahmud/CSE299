@@ -1,4 +1,4 @@
-Update 1:         Course CSE299.4              Group 5
+Update 2:         Course CSE299.4              Group 5
 Project Functionality Summary (Contributor: Tashfiq Mahmud)
 Audio Implementation (Music & Sound Design)
 This module was responsible for designing and implementing the entire auditory experience, ensuring player immersion and thematic consistency. This involved integrating multiple background music tracks that loop and transition dynamically to maintain the retro-futuristic synthwave mood. Furthermore, a comprehensive set of game sound effects (SFX) was sourced and integrated, covering critical player feedback moments such as coin collection, jump actions, collision impact, and power-up activation. This work provides essential auditory cues, enhancing both player feedback and overall engagement.
