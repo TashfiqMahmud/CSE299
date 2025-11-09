@@ -1,3 +1,19 @@
+Update 4:         Course CSE299.4              Group 5 
+ 
+Project Functionality Summary (Contributor: Tashfiq Mahmud)
+This project presents a literature review on the Endless Runner game genre. It examines the genre’s origins, purpose, and evolution through popular titles like Canabalt, Temple Run, and Subway Surfers. The study analyzes why the genre was created, its success factors, and its current popularity in the mobile gaming market. My contribution includes collecting and summarizing research materials, identifying key problems the genre addressed, and designing a presentation that highlights major findings and trends. The review concludes that endless runners remain influential but face challenges of innovation and market saturation.
+
+Project Functionality Summary(Contributor:Tamanna Akter Mou) 
+User Settings Finalization
+This week, I focused on setting up and organizing the Unity User Settings to ensure a smooth and consistent development experience for the team. Key configuration files such as EditorUserSettings.asset, Search.settings, and default-2021.dwlt were updated and added to the project.These files help maintain a uniform editor layout, improve asset search efficiency, and preserve personalized editor preferences. This setup will support faster development, reduce configuration issues, and keep the workflow consistent across all team members. In addition, standardizing these settings ensures that all contributors view the same workspace layout when opening the project, reducing confusion during scene editing. Search filters were also refined to make it easier to locate scripts, prefabs, and materials quickly. This update serves as a foundation for better collaboration and streamlined development in future stages of the project.
+
+Project Functionality Summary (Contributor: Ihtishamul Haq & Tirana Mahbub) 
+Script Integration
+This week, our primary focus was on adding and integrating the core C# scripts for Vapor Drift. These scripts form the backbone of the game’s functionality and control systems, enabling smooth gameplay and interaction between different components.We uploaded and organized several key scripts, including AudioManager, CameraFollow, GameManager, Player_Movement, LifeManager, Sound, and others. Each script plays an important role in handling specific mechanics such as player movement, camera behavior, audio management, game state control, and in-game interactions. Corresponding .meta files were also added to ensure proper recognition and linking within Unity’s asset system.
+This update was an essential step in establishing the game’s core logic and functionality, laying the groundwork for future modules like gameplay tuning, UI interaction, and level progression.
+
+
+
 Update 3:         Course CSE299.4              Group 5 
  
 Project Functionality Summary (Contributor: Tashfiq Mahmud & Tamanna Akter Mou) 
