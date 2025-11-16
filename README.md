@@ -1,8 +1,22 @@
+Update 5:         Course CSE299.4              Group 5 
+
 Project Video 3: https://youtu.be/qr4y2gQMEdU
 
 Project Video 2: https://youtu.be/JVu6ad_eSE8
 
 Preject Video 1: https://youtu.be/97PvFzanUd4
+
+Project Functionality Summary (Contributor: Tashfiq Mahmud)
+I've completed the core foundation for my endless runner prototype. I successfully implemented the Player's running animation and built the central Level Spawning System using a dedicated LevelSpawner manager. I created four unique Chunk Prefabs and customized materials, including the green playground area. I set up the critical EndMarker triggers on all chunks, ensuring seamless, continuous, and random track generation as I move forward. I am now prepared to focus on creating additional Chunk Prefabs for content variety.
+
+Project Functionality Summary(Contributor: Tamanna Akter Mou & Ihtishamul Haq) 
+This week, our main contribution was creating a detailed flowchart based on our game project video. We watched the full gameplay recording and converted all the steps into a clear vertical flowchart, showing how the game starts, loads assets, initializes the player, and generates the procedural track. We also explained gameplay elements such as lane switching, collectibles, near-miss events, boost activation, and phase-shift mechanics. The flowchart shows the full gameplay loop, including collision checks, game-over logic, scoring, and difficulty scaling. By mapping everything visually, we helped our team understand the current progress and identify the core systems already implemented. This flowchart will guide us for the next development steps and make future updates easier to track.
+
+Project Functionality Summary (Contributor: Tirana Mahbub) 
+This week, I worked on writing the Proposed Solutions Report for Vapor Drift. I tried to identify the common issues in existing games and explained how our game will improve them. I described how we can possibly reduce repetition using procedural track chunks, add more skill-based features like near-miss rewards and make gameplay more strategic with energy-based obstacle passing. I also covered technical improvements such as object pooling, optimized shaders and simplified physics to keep the game lag-free. We are trying to strengthen the game’s identity by expanding the synthwave world “The Grid” and made a player-friendly monetization plan with optional ads and cosmetic-only purchases. Overall, my contribution this week was creating a clear plan to make the game more unique, polished and enjoyable.
+ 
+
+
 
 Update 4:         Course CSE299.4              Group 5 
  
