@@ -1,3 +1,7 @@
+Project Video 3: https://youtu.be/qr4y2gQMEdU
+
+Project Video 2: https://youtu.be/JVu6ad_eSE8
+
 Preject Video 1: https://youtu.be/97PvFzanUd4
 
 Update 4:         Course CSE299.4              Group 5 
