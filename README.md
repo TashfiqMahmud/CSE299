@@ -1,10 +1,12 @@
-Update 5:         Course CSE299.4              Group 5 
+Project Video 4: https://youtu.be/q2IQnO7BmN4
 
 Project Video 3: https://youtu.be/qr4y2gQMEdU
 
 Project Video 2: https://youtu.be/JVu6ad_eSE8
 
 Preject Video 1: https://youtu.be/97PvFzanUd4
+
+Update 5:         Course CSE299.4              Group 5 
 
 Project Functionality Summary (Contributor: Tashfiq Mahmud)
 I've completed the core foundation for my endless runner prototype. I successfully implemented the Player's running animation and built the central Level Spawning System using a dedicated LevelSpawner manager. I created four unique Chunk Prefabs and customized materials, including the green playground area. I set up the critical EndMarker triggers on all chunks, ensuring seamless, continuous, and random track generation as I move forward. I am now prepared to focus on creating additional Chunk Prefabs for content variety.
