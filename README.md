@@ -10,6 +10,19 @@ Project Video 2: https://youtu.be/JVu6ad_eSE8
 
 Preject Video 1: https://youtu.be/97PvFzanUd4
 
+
+Update 6:         Course CSE299.4              Group 5 
+ 
+Project Functionality Summary (Contributor: Tashfiq Mahmud)
+This week, I finalized core player and level systems, establishing the foundation for continuous gameplay. I implemented robust character physics, enabling smooth forward movement and accurate lane changing, and integrated turn triggers to handle dynamic directional shifts. I ensured stable player tracking during all movements using the CameraFollow.cs script. I set up the GameManager to use precision offsets to generate a seamless, continuous path of road geometry. Finally, I made structural improvements that enabled the successful placement of rotating coins on the track, preparing the game for collection logic.
+
+Project Functionality Summary(Contributor: Tamanna Akter Mou & Ihtishamul Haq) 
+This week, we focused on documenting and visualizing our overall development progress by creating a complete, structured vertical flowchart for the Vapor Drift project. We analyzed the gameplay videos, team tasks, and implemented features to accurately map each development stage—from asset integration to movement systems, UI flow, and advanced mechanics like Boost and Phase-Shift. The flowchart organizes every milestone in chronological order, showing how each system connects to the next, ensuring clear visibility of the project’s technical progression. This visual documentation improves team communication, helps identify dependencies, and serves as a polished representation of our collective work for reports and presentations. This flowchart will guide us for the next development steps and make future updates easier to track.
+
+Project Functionality Summary (Contributor: Tirana Mahbub) 
+I developed some game features by adding a main menu scene and connecting it to the gameplay scene for smooth navigation. I created the main menu scene by adding sufficient customizations, buttons, images etc. The player’s forward movement was fixed so the character now moves continuously. A pause menu was created using Unity UI with Resume and Quit buttons that can quit and resume the game using time-scaling. Required C# scripts were added during the tasks. These improvements created a stable flow between the MainMenu scene and the Game scene and made the game easier to control.
+
+
 Update 5:         Course CSE299.4              Group 5 
 
 Project Functionality Summary (Contributor: Tashfiq Mahmud)
