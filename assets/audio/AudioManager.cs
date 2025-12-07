@@ -6,7 +6,7 @@ public class Sound
 {
     public string name;
     public AudioClip clip;
-    public bool loop;          // true for music, false for SFX
+    public bool loop;        
     [HideInInspector] public AudioSource source;
 }
 
@@ -22,7 +22,7 @@ public class AudioManager : MonoBehaviour
 
     void Awake()
     {
-        // Singleton pattern
+    
         if (instance == null)
         {
             instance = this;
@@ -34,7 +34,7 @@ public class AudioManager : MonoBehaviour
             return;
         }
 
-        // Setup AudioSources for music
+
         foreach (Sound s in musicSounds)
         {
             s.source = gameObject.AddComponent<AudioSource>();
@@ -43,7 +43,7 @@ public class AudioManager : MonoBehaviour
             s.source.playOnAwake = false;
         }
 
-        // Setup AudioSources for SFX
+        
         foreach (Sound s in sfxSounds)
         {
             s.source = gameObject.AddComponent<AudioSource>();
@@ -53,7 +53,6 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    // Play music or SFX by name
     public void Play(string name)
     {
         Sound s = Array.Find(musicSounds, sound => sound.name == name);
@@ -73,7 +72,6 @@ public class AudioManager : MonoBehaviour
         Debug.LogWarning("AudioManager: Sound not found - " + name);
     }
 
-    // Stop music or SFX by name
     public void Stop(string name)
     {
         Sound s = Array.Find(musicSounds, sound => sound.name == name);
@@ -93,10 +91,11 @@ public class AudioManager : MonoBehaviour
         Debug.LogWarning("AudioManager: Sound not found - " + name);
     }
 
-    // Optional: Adjust volume
+  
     public void SetVolume(string name, float volume)
     {
         Sound s = Array.Find(musicSounds, sound => sound.name == name);
         if (s != null) s.source.volume = volume;
     }
 }
+
