@@ -1,3 +1,5 @@
+Project Video 7: https://youtu.be/GKVfOrRSgmg
+
 Project Video 6: https://youtu.be/RhQ0227ugDQ
 
 Project Video 5: https://youtu.be/ujQa_sYotkY
