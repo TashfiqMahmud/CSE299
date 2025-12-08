@@ -9,5 +9,6 @@ public class ModeManager : MonoBehaviour
         Hard
     }
 
-    public static Mode selectedMode = Mode.NoTimer; // default
+    public static Mode selectedMode = Mode.NoTimer; 
 }
+
