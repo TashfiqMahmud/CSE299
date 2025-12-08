@@ -36,6 +36,15 @@ public class PauseMenuController : MonoBehaviour
        
         Time.timeScale = 1f;
         SceneManager.LoadScene("MainMenu"); 
+        AudioManager.instance.Stop("GameSceneMusic");
+    }
+
+    public void Reset()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Part1"); 
+        
     }
 }
+
 
