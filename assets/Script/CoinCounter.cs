@@ -5,12 +5,12 @@ public class CoinCounter : MonoBehaviour
 {
     public static CoinCounter instance;
 
-    public int totalCoins = 5;
+    public int totalCoins = 100;
     private int currentCoins = 0;
 
     public GameObject winPanel; 
     public TMP_Text coinText;     
-    public TMP_Text timeText;     // NEW — assign under WinPanel
+    public TMP_Text timeText;     
 
     private float timer = 0f;
     private bool gameRunning = true;
@@ -60,3 +60,4 @@ public class CoinCounter : MonoBehaviour
         Time.timeScale = 0f;
     }
 }
+
