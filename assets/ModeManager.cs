@@ -9,6 +9,21 @@ public class ModeManager : MonoBehaviour
         Hard
     }
 
-    public static Mode selectedMode = Mode.NoTimer; 
-}
+    public static Mode selectedMode = Mode.NoTimer;
 
+    void Awake()
+    {
+        
+        if (PlayerPrefs.HasKey("SelectedMode"))
+        {
+            selectedMode = (Mode)PlayerPrefs.GetInt("SelectedMode");
+        }
+    }
+
+    public static void SetMode(Mode mode)
+    {
+        selectedMode = mode;
+        PlayerPrefs.SetInt("SelectedMode", (int)mode);
+        PlayerPrefs.Save();
+    }
+}
