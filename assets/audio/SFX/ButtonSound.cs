@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.EventSystems; // Needed for hover events
+using UnityEngine.EventSystems; 
 
 public class ButtonSound : MonoBehaviour, IPointerEnterHandler
 {
@@ -7,15 +7,15 @@ public class ButtonSound : MonoBehaviour, IPointerEnterHandler
     public string clickSound = "ButtonClick";
     public string hoverSound = "ButtonHover";
 
-    // Play hover sound
+    
     public void OnPointerEnter(PointerEventData eventData)
     {
-        AudioManager.instance.Play(hoverSound); // use variable, not undefined name
+        AudioManager.instance.Play(hoverSound); 
     }
 
-    // Play click sound
+    
     public void PlayClickSound()
     {
-        AudioManager.instance.Play(clickSound); // use variable
+        AudioManager.instance.Play(clickSound); 
     }
 }
