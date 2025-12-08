@@ -10,7 +10,6 @@ public class Donates : MonoBehaviour
         
     }
 
-    // Update is called once per frame
     void Update()
     {
        
@@ -21,7 +20,6 @@ public class Donates : MonoBehaviour
         {
             GameControll.instance.score += 1;
             AudioManager.instance.Play("Donate");
-           // AudioManager.instance.Play("Diamond");
             Destroy(this.gameObject, 0.2f);
         }
     }
