@@ -5,9 +5,9 @@ using TMPro;
 public class PlayerSensitivity : MonoBehaviour
 {
     [Header("References")]
-    public Slider sensitivitySlider;          // Assign your slider here
-    public PlayerController playerController; // Assign your PlayerController here
-    public TMP_Text valueText;                // Assign TMP Text to display value
+    public Slider sensitivitySlider;          
+    public PlayerController playerController; 
+    public TMP_Text valueText;               
 
     void Start()
     {
@@ -17,13 +17,13 @@ public class PlayerSensitivity : MonoBehaviour
             return;
         }
 
-        // Initialize slider with current player laneSpeed
+      
         sensitivitySlider.value = playerController.laneSpeed;
 
-        // Update the text
+      
         UpdateValueText(playerController.laneSpeed);
 
-        // Listen to slider changes
+    
         sensitivitySlider.onValueChanged.AddListener(SetSensitivity);
     }
 
@@ -31,10 +31,10 @@ public class PlayerSensitivity : MonoBehaviour
     {
         if (playerController != null)
         {
-            playerController.laneSpeed = value; // Update player speed
+            playerController.laneSpeed = value;
         }
 
-        // Update display text
+       
         UpdateValueText(value);
     }
 
@@ -42,7 +42,8 @@ public class PlayerSensitivity : MonoBehaviour
     {
         if (valueText != null)
         {
-            valueText.text = value.ToString("F1"); // Show 1 decimal place
+            valueText.text = value.ToString("F1");
         }
     }
 }
+
