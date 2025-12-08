@@ -19,10 +19,10 @@ public class PlayerController : MonoBehaviour
     public LayerMask groundLayer;
 
     [Header("UI")]
-    public TMP_Text bumpText;               // Assign in Inspector
-    public int maxBumps = 5;                // Max bumps before Game Over
-    public GameObject gameOverPanel;        // Normal GameOver panel
-    public GameObject gameOverTimerPanel;   // Timer GameOver panel
+    public TMP_Text bumpText;               
+    public int maxBumps = 5;                
+    public GameObject gameOverPanel;       
+    public GameObject gameOverTimerPanel;   
 
     private Rigidbody rb;
     private bool isBlocked = false;
@@ -39,7 +39,7 @@ public class PlayerController : MonoBehaviour
         rb.interpolation = RigidbodyInterpolation.Interpolate;
         rb.constraints = RigidbodyConstraints.FreezeRotation;
 
-        // Initialize UI
+     
         UpdateBumpUI();
 
         if (gameOverPanel != null)
@@ -54,11 +54,10 @@ public class PlayerController : MonoBehaviour
         float moveHorizontal = 0f;
 float moveForward = 0f;
 
-// Forward/backward = W / S
 if (Input.GetKey(KeyCode.W)) moveForward = 0.8f;
 if (Input.GetKey(KeyCode.S)) moveForward = -0.8f;
 
-// Left/right = A / D
+
 if (Input.GetKey(KeyCode.A)) moveHorizontal = -0.35f;
 if (Input.GetKey(KeyCode.D)) moveHorizontal = 0.35f;
 
@@ -82,7 +81,7 @@ if (Input.GetKey(KeyCode.D)) moveHorizontal = 0.35f;
 
     void Update()
     {
-        // Jump input check
+      
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
         {
             Jump();
@@ -91,20 +90,20 @@ if (Input.GetKey(KeyCode.D)) moveHorizontal = 0.35f;
 
     bool IsGrounded()
     {
-        // Raycast downward to check for ground
+       
         return Physics.Raycast(transform.position, Vector3.down, groundCheckDistance + 0.01f, groundLayer);
     }
 
     public void Jump()
     {
-        // Reset Y velocity for consistent jump
+
         rb.velocity = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
         rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
     }
 
     private void OnCollisionEnter(Collision collision)
     {
-        // Handle obstacles
+     
         if (collision.collider.CompareTag("Obstacle"))
         {
             isBlocked = true;
@@ -169,3 +168,4 @@ if (Input.GetKey(KeyCode.D)) moveHorizontal = 0.35f;
         transform.position = Vector3.zero;
     }
 }
+
