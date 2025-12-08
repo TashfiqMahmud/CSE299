@@ -7,7 +7,7 @@ public class Coin : MonoBehaviour
     if (other.CompareTag("Player"))
     {
         if (CoinCounter.instance != null)
-            CoinCounter.instance.AddCoin(); // Safe call
+            CoinCounter.instance.AddCoin(); 
 
         if (AudioManager.instance != null)
     AudioManager.instance.Play("coinsound");
@@ -17,3 +17,4 @@ public class Coin : MonoBehaviour
 }
 
 }
+
